@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://dozer.sourceforge.net"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping wildcard="false" >
+        <class-a>com.ril.fnl.webservices.response.data.SuggestionData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SuggestionWsDTO</class-b>
+       
+         <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+        <field>
+            <a>value</a>
+            <b>value</b>
+        </field>
+          
+    </mapping>
+    
+         <mapping wildcard="false" >
+        <class-a>com.ril.fnl.webservices.response.data.OfferInfoCartData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.OfferInfoCartDataWsDTO</class-b>
+       
+         <field>
+            <a>OfferInfourlLink</a>
+            <b>OfferInfourlLink</b>
+        </field>
+        
+         <field>
+            <a>OfferInfocontent</a>
+            <b>OfferInfocontent</b>
+        </field>
+        <field>
+            <a>OfferInfouId</a>
+            <b>OfferInfouId</b>
+        </field>
+        
+         <field>
+            <a>OfferInfopage</a>
+            <b>OfferInfopage</b>
+        </field>
+        <field>
+            <a>OfferInfoApplicableId</a>
+            <b>OfferInfoApplicableId</b>
+        </field>
+        
+         <field>
+            <a>OfferInfocontentType</a>
+            <b>OfferInfocontentType</b>
+        </field>
+          
+    </mapping>
+    
+     <mapping wildcard="false" >
+        <class-a>com.ril.fnl.webservices.response.data.SuggestionDataList</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SuggestionListWsDTO</class-b>
+        <field>
+            <a>suggestions</a>
+            <b>suggestions</b>
+        </field>
+            
+    </mapping>
+    
+     <mapping wildcard="false" >
+	 
+        <class-a>com.ril.fnl.webservices.response.data.ProductData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.ProductWsDTO</class-b>
+              
+ <field>
+            <a>summary</a>
+            <b>summary</b>
+        </field>
+		
+		
+		 <field>
+            <a>volumePrices</a>
+            <b>volumePrices</b>
+        </field>
+        <field>
+            <a>description</a>
+            <b>description</b>
+        </field>
+		 
+		 
+		  <field>
+            <a>manufacturer</a>
+            <b>manufacturer</b>
+        </field>  <field>
+            <a>volumePricesFlag</a>
+            <b>volumePricesFlag</b>
+        </field>
+			 
+	   <field>
+            <a>images</a>
+            <b>images</b>
+        </field>		
+	   		
+	  <field>
+            <a>potentialPromotions</a>
+            <b>potentialPromotions</b>
+        </field>
+		  
+	  
+		  <field>
+            <a>name</a>
+            <b>name</b>
+        </field>
+		 
+		  <field>
+            <a>code</a>
+            <b>code</b>
+        </field>
+		 <field>
+            <a>couponStatus</a>
+            <b>couponStatus</b>
+        </field>
+		  <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+		  <field>
+            <a>price</a>
+            <b>price</b>
+        </field>
+		  <field>
+            <a>fnlColorVariantData</a>
+            <b>fnlColorVariantData</b>
+        </field>
+		 
+		
+		  <field>
+            <a>wasPriceData</a>
+            <b>wasPriceData</b>
+        </field>
+		  <field>
+            <a>discountPercent</a>
+            <b>discountPercent</b>
+        </field>
+        
+		 
+		  <field>
+            <a>variantType</a>
+            <b>variantType</b>
+        </field>
+		  
+		 
+		
+		
+	  <field>
+            <a>fnlSizeVariantData</a>
+            <b>fnlSizeVariantData</b>
+        </field>
+	  <field>
+            <a>fnlProductData</a>
+            <b>fnlProductData</b>
+        </field>
+	  <field>
+            <a>brandName</a>
+            <b>brandName</b>
+        </field>
+		
+		
+	  <field>
+            <a>verticalColor</a>
+            <b>verticalColor</b>
+        </field>
+        
+      <field>
+            <a>offerPrice</a>
+            <b>offerPrice</b>
+      </field>
+              
+	  <!-- <field>
+            <a>isBundleOfferApplicable</a>
+            <b>isBundleOfferApplicable</b>
+        </field> 
+	  <field>
+            <a>returnContent</a>
+            <b>returnContent</b>
+        </field>	
+ <field>
+            <a>returnUrl</a>
+            <b>returnUrl</b>
+        </field>	
+ <field>
+            <a>isReturnable</a>
+            <b>isReturnable</b>
+        </field>	
+ <field>
+            <a>returnTitle</a>
+            <b>returnTitle</b>
+        </field>	-->
+    </mapping>
+	
+	 <mapping wildcard="false" >
+	  
+	   
+				
+        <class-a>com.ril.fnl.webservices.response.data.FnlColorVariantData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.FnlColorVariantWSDTO</class-b>
+        	
+		 <field>
+            <a>brandName</a>
+            <b>brandName</b>
+        </field>
+		  <field>
+            <a>color</a>
+            <b>color</b>
+        </field>
+		  <field>
+            <a>colordescription</a>
+            <b>colordescription</b>
+        </field>
+		
+		  <field>
+            <a>outfitPictureURL</a>
+            <b>outfitPictureURL</b>
+        </field>
+		  <field>
+            <a>colorGroup</a>
+            <b>colorGroup</b>
+        </field>
+		  <field>
+            <a>exclusiveTill</a>
+            <b>exclusiveTill</b>
+        </field>
+		
+	  <field>
+            <a>allPromotions</a>
+            <b>allPromotions</b>
+        </field>
+		  <field>
+            <a>sizeGuideDesktop</a>
+            <b>sizeGuideDesktop</b>
+        </field>
+		  <field>
+            <a>sizeGuideServiceUrl</a>
+            <b>sizeGuideServiceUrl</b>
+        </field>
+		  <field>
+            <a>catDescription</a>
+            <b>catDescription</b>
+        </field>
+		  <field>
+            <a>aboutBrandImgUrl</a>
+            <b>aboutBrandImgUrl</b>
+        </field>
+		  <field>
+            <a>videoUrl</a>
+            <b>videoUrl</b>
+        </field>
+		  <field>
+            <a>mobileAppVideoUrl</a>
+            <b>mobileAppVideoUrl</b>
+        </field>
+		  <field>
+            <a>capsuleID</a>
+            <b>capsuleID</b>
+        </field>
+		  <field>
+            <a>brickNum</a>
+            <b>brickNum</b>
+        </field>
+		
+		  <field>
+            <a>maxQuantity</a>
+            <b>maxQuantity</b>
+        </field>
+		  <field>
+            <a>swatchColor</a>
+            <b>swatchColor</b>
+        </field>
+		  <field>
+            <a>sizeFlag</a>
+            <b>sizeFlag</b>
+        </field>
+		  <field>
+            <a>sizeToolTip</a>
+            <b>sizeToolTip</b>
+        </field>
+		  <field>
+            <a>categoryUrl</a>
+            <b>categoryUrl</b>
+        </field>
+	
+            
+    </mapping>
+	
+	
+	    <mapping wildcard="false" >
+	  
+        <class-a>com.ril.fnl.webservices.response.data.ImageData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.ImageWsDTO</class-b>
+      
+       <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+		 <field>
+            <a>format</a>
+            <b>format</b>
+        </field>
+		 <field>
+            <a>imageType</a>
+            <b>imageType</b>
+        </field>
+		 <field>
+            <a>galleryIndex</a>
+            <b>galleryIndex</b>
+        </field>
+		 <field>
+            <a>altText</a>
+            <b>altText</b>
+        </field>
+    </mapping>
+	
+	
+	    <mapping wildcard="false" >
+	  
+        <class-a>com.ril.fnl.webservices.response.data.PriceData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.PriceWsDTO</class-b>
+      <field>
+            <a>value</a>
+            <b>value</b>
+        </field>
+		 <field>
+            <a>currencyIso</a>
+            <b>currencyIso</b>
+        </field>
+		 <field>
+            <a>displayformattedValue</a>
+            <b>displayformattedValue</b>
+        </field>
+		 <field>
+            <a>priceType</a>
+            <b>priceType</b>
+        </field>
+		 <field>
+            <a>maxQuantity</a>
+            <b>maxQuantity</b>
+        </field>
+		 <field>
+            <a>minQuantity</a>
+            <b>minQuantity</b>
+        </field>
+		 <field>
+            <a>formattedValue</a>
+            <b>formattedValue</b>
+        </field>
+    </mapping>
+    
+	
+	    <mapping wildcard="false" >
+	  
+        <class-a>com.ril.fnl.webservices.response.data.SearchStateData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SearchStateWsDTO</class-b>
+        <field>
+            <a>query</a>
+            <b>query</b>
+        </field>
+		 <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+		
+    </mapping>
+	
+	  
+	
+	    <mapping wildcard="false" >
+	  
+        <class-a>com.ril.fnl.webservices.response.data.SearchQueryData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SearchQueryWsDTO</class-b>
+        <field>
+            <a>value</a>
+            <b>value</b>
+        </field>
+		
+		
+    </mapping>
+	
+	 
+	    <mapping wildcard="false" >
+	  
+        <class-a>com.ril.fnl.webservices.response.data.FacetData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.FacetWsDTO</class-b>
+        <field>
+            <a>multiSelect</a>
+            <b>multiSelect</b>
+        </field>
+		 <field>
+            <a>category</a>
+            <b>category</b>
+        </field>
+		 <field>
+            <a>values</a>
+            <b>values</b>
+        </field>
+		
+		 <field>
+            <a>visible</a>
+            <b>visible</b>
+        </field>
+		 <field>
+            <a>priority</a>
+            <b>priority</b>
+        </field>
+		 <field>
+            <a>name</a>
+            <b>name</b>
+        </field>
+		<field>
+            <a>topValues</a>
+            <b>topValues</b>
+        </field>
+        <field>
+            <a>commonFilter</a>
+            <b>commonFilter</b>
+        </field>
+        <field>
+            <a>code</a>
+            <b>code</b>
+        </field>
+        <field>
+            <a>maxPrice</a>
+            <b>maxPrice</b>
+        </field>
+		
+		 <field>
+            <a>minPrice</a>
+            <b>minPrice</b>
+        </field>
+        <field>
+            <a>priceRangeValue</a>
+            <b>priceRangeValue</b>
+         </field>
+         <field>
+            <a>hideIfCurated</a>
+            <b>hideIfCurated</b>
+        </field>
+	
+		
+		
+    </mapping>
+		
+	    <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.ProductCategorySearchPageData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.ProductCategorySearchPageWsDTO</class-b>
+         <field>
+            <a>graphicStyleType</a>
+            <b>graphicStyleType</b>
+        </field>
+		
+		 <field>
+            <a>freeTextSearch</a>
+            <b>freeTextSearch</b>
+        </field>
+		
+		 <field>
+            <a>keywordRedirectUrl</a>
+            <b>keywordRedirectUrl</b>
+        </field>
+		<field>
+            <a>redirect</a>
+            <b>redirect</b>
+        </field>
+		 <field>
+            <a>categoryCode</a>
+            <b>categoryCode</b>
+        </field>
+        <field>
+            <a>categoryForHeader</a>
+            <b>categoryForHeader</b>
+        </field>
+        <field>
+            <a>categoryDescription</a>
+            <b>categoryDescription</b>
+        </field>
+        
+         <field>
+            <a>categoryName</a>
+            <b>categoryName</b>
+        </field>
+		 <field>
+            <a>results</a>
+            <b>products</b>
+        </field>
+		
+	    <field>
+            <a>breadcrumbs</a>
+            <b>breadcrumbs</b>
+        </field>
+        
+		<field>
+            <a>originalSearchTerm</a>
+            <b>originalSearchTerm</b>
+        </field>
+		<field>
+            <a>autoCorrect</a>
+            <b>autoCorrect</b>
+        </field>
+		<field>
+            <a>redirectPage</a>
+            <b>redirectPage</b>
+        </field>
+		
+		<field>
+            <a>pagination</a>
+            <b>pagination</b>
+        </field>
+        <field>
+            <a>facets</a>
+            <b>facets</b>
+        </field>
+        <field>
+            <a>imageStyleType</a>
+            <b>imageStyleType</b>
+        </field>
+		 <field>
+            <a>productToggle</a>
+            <b>productToggle</b>
+        </field>
+		 <field>
+            <a>sorts</a>
+            <b>sorts</b>
+        </field>
+		 <field>
+            <a>currentQuery</a>
+            <b>currentQuery</b>
+        </field>
+		 <field>
+            <a>spellingSuggestion</a>
+            <b>spellingSuggestion</b>
+        </field>
+			 <field>
+            <a>spellingSuggestions</a>
+            <b>spellingSuggestions</b>
+        </field>
+        <field>
+            <a>noIndex</a>
+            <b>noIndex</b>
+        </field>
+        </mapping>
+	<mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.ProductSearchPageData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.ProductSearchPageWsDTO</class-b>
+        <field>
+            <a>freeTextSearch</a>
+            <b>freeTextSearch</b>
+        </field>
+        
+         <field>
+            <a>classifierType</a>
+            <b>classifierType</b>
+        </field>
+		
+		 <field>
+            <a>keywordRedirectUrl</a>
+            <b>keywordRedirectUrl</b>
+        </field>
+		 <field>
+            <a>categoryCode</a>
+            <b>categoryCode</b>
+        </field>
+		 <field>
+            <a>results</a>
+            <b>products</b>
+        </field>
+			 <field>
+            <a>facets</a>
+            <b>facets</b>
+        </field>
+			 <field>
+            <a>productToggle</a>
+            <b>productToggle</b>
+        </field>
+		 <field>
+            <a>spellingSuggestion</a>
+            <b>spellingSuggestion</b>
+        </field>
+		 <field>
+            <a>spellingSuggestions</a>
+            <b>spellingSuggestions</b>
+        </field>
+		 
+	
+		 <field>
+            <a>currentQuery</a>
+            <b>currentQuery</b>
+        </field>
+		 <field>
+            <a>breadcrumbs</a>
+            <b>breadcrumbs</b>
+        </field>
+		 <field>
+            <a>sorts</a>
+            <b>sorts</b>
+        </field>
+		
+		<field>
+            <a>pagination</a>
+            <b>pagination</b>
+        </field>
+		<field>
+            <a>pageType</a>
+            <b>pageType</b>
+        </field>
+        <field>
+            <a>offerInfoCartData</a>
+            <b>offerInfoCartData</b>
+        </field>
+        <field>
+            <a>suggestedSearchTerms</a>
+            <b>suggestedSearchTerms</b>
+        </field>
+        <field>
+            <a>spellCheckSuggesstions</a>
+            <b>spellCheckSuggesstions</b>
+        </field>
+        <field>
+            <a>autoAppliedFilter</a>
+            <b>autoAppliedFilter</b>
+        </field>
+        <field>
+            <a>appliedGenderFilter</a>
+            <b>appliedGenderFilter</b>
+        </field>
+    </mapping>
+
+    <mapping wildcard="false" >
+
+        <class-a>com.ril.fnl.webservices.response.data.SearchProductCountDto</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SpellCheckSuggesstionsWsDTO</class-b>
+        <field>
+            <a>searchTerm</a>
+            <b>term</b>
+        </field>
+        <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+
+    </mapping>
+
+    <mapping wildcard="false" >
+
+        <class-a>com.ril.fnl.webservices.response.data.SearchProductCountDto</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SearchProductCountWsDTO</class-b>
+        <field>
+            <a>searchTerm</a>
+            <b>searchTerm</b>
+        </field>
+        <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+        <field>
+            <a>itemCount</a>
+            <b>itemCount</b>
+        </field>
+
+    </mapping>
+	
+	
+    <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.SpellingSuggestionData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SpellingSuggestionWsDTO</class-b>
+       
+		 <field>
+            <a>query</a>
+            <b>query</b>
+        </field>
+		
+		 <field>
+            <a>suggestion</a>
+            <b>suggestion</b>
+        </field>
+		
+		
+    </mapping>
+	
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.FacetValueData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.FacetValueWsDTO</class-b>
+     
+		 <field>
+            <a>query</a>
+            <b>query</b>
+        </field>
+		
+		 <field>
+            <a>selected</a>
+            <b>selected</b>
+        </field>
+		
+		 <field>
+            <a>count</a>
+            <b>count</b>
+        </field>
+		 <field>
+            <a>name</a>
+            <b>name</b>
+        </field>
+		 <field>
+            <a>code</a>
+            <b>code</b>
+        </field>
+		 <field>
+            <a>facetValueDataList</a>
+            <b>facetValueDataList</b>
+        </field>
+		
+		
+    </mapping>
+	
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.SolrSearchQueryTermData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SolrSearchQueryTermWsDTO</class-b>
+     
+		 <field>
+            <a>value</a>
+            <b>value</b>
+        </field>
+		
+		 <field>
+            <a>key</a>
+            <b>key</b>
+        </field>
+				
+    </mapping>
+    
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.BreadcrumbData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.BreadcrumbWsDTO</class-b>
+     	 <field>
+            <a>truncateQuery</a>
+            <b>truncateQuery</b>
+        </field>
+		
+		 <field>
+            <a>removeQuery</a>
+            <b>removeQuery</b>
+        </field>
+		 <field>
+            <a>facetName</a>
+            <b>facetName</b>
+        </field>
+		
+		 <field>
+            <a>facetValueName</a>
+            <b>facetValueName</b>
+        </field> <field>
+            <a>facetCode</a>
+            <b>facetCode</b>
+        </field>
+		
+		 <field>
+            <a>facetValueCode</a>
+            <b>facetValueCode</b>
+        </field>
+				
+    </mapping>
+	
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.RilfnlBreadCrumbListData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.RilfnlBreadCrumbListWSDTO</class-b>
+     	 <field>
+            <a>rilfnlBreadCrumb</a>
+            <b>rilfnlBreadCrumb</b>
+        </field>
+		
+    </mapping>
+	
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.RilfnlBreadCrumbData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.RilfnlBreadCrumbWSDTO</class-b>
+     	 <field>
+            <a>url</a>
+            <b>url</b>
+        </field>
+		 <field>
+            <a>name</a>
+            <b>name</b>
+        </field>
+		 <field>
+            <a>linkClass</a>
+            <b>linkClass</b>
+        </field> 
+		<field>
+            <a>categoryCode</a>
+            <b>categoryCode</b>
+        </field>
+		
+    </mapping>
+	
+	
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.PageableData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.PageableWsDTO</class-b>
+     	 <field>
+            <a>sort</a>
+            <b>sort</b>
+        </field>
+		
+		 <field>
+            <a>pageSize</a>
+            <b>pageSize</b>
+        </field>
+		 <field>
+            <a>currentPage</a>
+            <b>currentPage</b>
+        </field>	
+				
+    </mapping>
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.SortData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SortWsDTO</class-b>
+     	 <field>
+            <a>selected</a>
+            <b>selected</b>
+        </field>
+		
+		 <field>
+            <a>name</a>
+            <b>name</b>
+        </field>
+		 <field>
+            <a>code</a>
+            <b>code</b>
+        </field>				
+    </mapping>
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.SolrSearchQueryData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.SolrSearchQueryWsDTO</class-b>
+     	 <field>
+            <a>categoryCode</a>
+            <b>categoryCode</b>
+        </field>
+				
+    </mapping>
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.PaginationData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.PaginationWsDTO</class-b>
+     	 <field>
+            <a>totalNumberOfResults</a>
+            <b>totalResults</b>
+        </field>
+		
+		 <field>
+            <a>numberOfPages</a>
+            <b>totalPages</b>
+        </field>
+		 <field>
+            <a>sort</a>
+            <b>sort</b>
+        </field>	
+        <field>
+            <a>pageSize</a>
+            <b>pageSize</b>
+        </field>
+		 <field>
+            <a>currentPage</a>
+            <b>currentPage</b>
+        </field>			
+    </mapping>
+	 <mapping wildcard="false" >
+	   
+        <class-a>com.ril.fnl.webservices.response.data.FnlProductData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.FnlProductWSDTO</class-b>
+     	 <field>
+            <a>productType</a>
+            <b>productType</b>
+        </field>		 
+		 <field>
+            <a>codAllowed</a>
+            <b>codAllowed</b>
+        </field>
+		 <field>
+            <a>giftWrapAllowed</a>
+            <b>giftWrapAllowed</b>
+        </field>	
+        <field>
+            <a>assumeInfiniteInventory</a>
+            <b>assumeInfiniteInventory</b>
+        </field>
+		
+		 <field>
+            <a>specialClassification</a>
+            <b>specialClassification</b>
+        </field>	
+					
+		 <field>
+            <a>pickupAllowed</a>
+            <b>pickupAllowed</b>
+        </field>	
+					
+		 <field>
+            <a>procurementAllowed</a>
+            <b>procurementAllowed</b>
+        </field>	
+					
+		 <field>
+            <a>shippingAllowed</a>
+            <b>shippingAllowed</b>
+        </field>	
+					
+		 <field>
+            <a>soldSeparately</a>
+            <b>soldSeparately</b>
+        </field>	
+					
+		 <field>
+            <a>returnWindow</a>
+            <b>returnWindow</b>
+        </field>	
+					
+		 <field>
+            <a>tagControlFlag</a>
+            <b>tagControlFlag</b>
+        </field>	
+			
+		 <field>
+            <a>scheduleBCode</a>
+            <b>scheduleBCode</b>
+        </field>	
+					
+		 <field>
+            <a>taxCode</a>
+            <b>taxCode</b>
+        </field>	
+					
+		 <field>
+            <a>productGroups</a>
+            <b>productGroups</b>
+        </field>	
+					
+		 <field>
+            <a>fashionType</a>
+            <b>fashionType</b>
+        </field>	
+					
+		 <field>
+            <a>season</a>
+            <b>season</b>
+        </field>	
+					
+		 <field>
+            <a>seasonYear</a>
+            <b>seasonYear</b>
+        </field>	
+					
+		 <field>
+            <a>country</a>
+            <b>country</b>
+        </field>	
+					
+		 <field>
+            <a>planningCategory</a>
+            <b>planningCategory</b>
+        </field>	
+					
+		 <field>
+            <a>buyType</a>
+            <b>buyType</b>
+        </field>	
+					
+		 <field>
+            <a>MultiVertical</a>
+            <b>MultiVertical</b>
+        </field>	
+					
+		 <field>
+            <a>MultiSegment</a>
+            <b>MultiSegment</b>
+        </field>	
+					
+		 <field>
+            <a>priceCluster</a>
+            <b>priceCluster</b>
+        </field> <field>
+            <a>styleType</a>
+            <b>styleType</b>
+        </field> <field>
+            <a>bundleFulfillmentMode</a>
+            <b>bundleFulfillmentMode</b>
+        </field> <field>
+            <a>bundlePricingStrategy</a>
+            <b>bundlePricingStrategy</b>
+        </field> <field>
+            <a>toggleOn</a>
+            <b>toggleOn</b>
+        </field>
+		
+    </mapping>
+    
+	    <mapping wildcard="false" >
+        <class-a>com.ril.fnl.webservices.response.data.CapsuleData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.CapsuleDataWSDTO</class-b>
+       
+         <field>
+            <a>id</a>
+            <b>id</b>
+         </field>
+         <field>
+            <a>imageURL</a>
+             <b>imageURL</b>
+         </field>
+         <field>
+            <a>description</a>
+            <b>description</b>
+         </field>
+         <field>  
+            <a>mobileAppvideoUrl</a>
+            <b>mobileAppvideoUrl</b>
+         </field>
+         <field>
+            <a>title</a>
+            <b>title</b>
+         </field> 
+         <field> 
+            <a>imageMapHTML</a>
+            <b>imageMapHTML</b>
+         </field>
+         <field>
+            <a>content</a>
+            <b>content</b>
+        </field>
+        <field>
+            <a>products</a>
+            <b>products</b>
+        </field>
+          
+    </mapping>
+    
+     <mapping wildcard="false" >
+	  
+        <class-a>com.ril.fnl.webservices.response.data.CapsuleDataList</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.CapsuleDataListWSDTO</class-b>
+        <field>
+            <a>capsules</a>
+            <b>capsules</b>
+        </field>
+	
+            
+    </mapping>
+    
+    <mapping wildcard="false" >
+     
+        <class-a>com.ril.fnl.webservices.response.data.OfferPriceData</class-a>
+        <class-b>com.ril.fnl.webservices.response.dtos.OfferPriceDTO</class-b>
+        <field>
+            <a>currencyIso</a>
+            <b>currencyIso</b>
+        </field>
+        <field>
+            <a>value</a>
+            <b>value</b>
+        </field>
+        <field>
+            <a>formattedValue</a>
+            <b>formattedValue</b>
+        </field>
+        <field>
+            <a>displayformattedValue</a>
+            <b>displayformattedValue</b>
+        </field>
+        <field>
+            <a>appliedCoupon</a>
+            <b>appliedCoupon</b>
+        </field>                
+    
+    </mapping>
+     
+    
+</mappings>

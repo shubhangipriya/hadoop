@@ -1,0 +1,9 @@
+com/example/model/Village.class
+com/example/service/VillageService.class
+com/example/service/ArticleService.class
+com/example/model/ConsumptionReport.class
+com/example/controller/VillageController.class
+com/example/controller/ArticleController.class
+com/example/model/Article.class
+com/example/model/Consumption.class
+com/example/MainController.class

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ [y] hybris Platform
+  ~
+  ~ Copyright (c) 2000-2015 hybris AG
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of hybris
+  ~ ("Confidential Information"). You shall not disclose such Confidential
+  ~ Information and shall use it only in accordance with the terms of the
+  ~ license agreement you entered into with hybris.
+  -->
+
+<!-- WARNING: This is the Spring WEB configuration file. If you want to replace 
+	items or managers you have to do this from the extensions core configuration 
+	file (rilfnlwebservices/resources/rilfnlwebservices-spring.xml) -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id = "validatorAspect" class = "com.ril.fnl.webservices.validator.RequestValidatorService"/>
+	
+	<bean id="basicdozerBeanMapper" class="org.dozer.DozerBeanMapper">
+        <property name="mappingFiles">
+            <list>
+                
+                <value>mappings/ajiosearch_basic_dozer_mapper.xml</value>
+            </list>
+        </property>
+    </bean>
+	
+    
+		<bean id="fulldozerBeanMapper" class="org.dozer.DozerBeanMapper">
+        <property name="mappingFiles">
+            <list>
+                <value>mappings/ajiosearch_full_dozer_mapper.xml</value>
+            </list>
+        </property>
+    </bean>
+    
+		<bean id="sitedozerBeanMapper" class="org.dozer.DozerBeanMapper">
+        <property name="mappingFiles">
+            <list>
+                
+                <value>mappings/ajiosearch_site_dozer_mapper.xml</value>
+            </list>
+        </property>
+    </bean>
+    
+		<bean id="defaultdozerBeanMapper" class="org.dozer.DozerBeanMapper">
+        <property name="mappingFiles">
+            <list>
+               
+                <value>mappings/ajiosearch_default_dozer_mapper.xml</value>
+            </list>
+        </property>
+    </bean>
+
+
+ 
+</beans>
