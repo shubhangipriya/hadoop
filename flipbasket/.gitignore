@@ -1,0 +1,10 @@
+/.classpath
+/.project
+/.settings/
+/build
+/bin
+/lib
+/target
+/war/WEB-INF/classes/
+/war/WEB-INF/lib/
+/war/assets/
